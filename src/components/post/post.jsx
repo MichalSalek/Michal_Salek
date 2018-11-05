@@ -5,13 +5,16 @@ import './css/post.scss';
 
 class Post extends Component {
   state = {
-    displayMemory: 'hidden',
-    displaySkipMemory: '',
-    displayMemoryAmount: 'hidden',
-    display1: 'hidden',
-    display2: 'hidden',
-    display3: 'hidden',
-    display4: 'hidden'
+    delays: {
+      displayMemory: 'hidden',
+      displaySkipMemory: '',
+      displayMemoryAmount: 'hidden',
+      display1: 'hidden',
+      display2: 'hidden',
+      display3: 'hidden',
+      display4: 'hidden',
+      memoryAmount: 0
+    }
   };
 
   delays = () => {
@@ -24,9 +27,10 @@ class Post extends Component {
     setTimeout(() => this.setState({ display4: '' }), 6600);
   };
 
-  memoryTest = (amount) => {
-    return amount;
-  }
+  memoryTest = amount => {
+    this.setState({ memoryAmount: amount });
+    return this.state.memoryAmount;
+  };
 
   render() {
     return (
