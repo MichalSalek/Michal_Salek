@@ -1,0 +1,88 @@
+@font-face {
+  font-family: 'px437_phoenix_biosregular';
+  src: url('./fonts/px437_phoenixega_8x8-2y-webfont.ttf') format('truetype'),
+    url('./fonts/px437_phoenixega_8x8-2y-webfont.woff2') format('woff2'),
+    url('./fonts/px437_phoenixega_8x8-2y-webfont.woff') format('woff'),
+    url('./fonts/px437_phoenixega_8x8-2y-webfont.svg#px437_phoenix_biosregular')
+      format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+$font-size: calc(16px + 0.1vw);
+
+.main {
+  background: black;
+  min-height: 550px;
+  height: 100vh;
+  min-width: 900px;
+  width: 100vw;
+  position: relative;
+  font-size: $font-size;
+  font-family: 'px437_phoenix_biosregular';
+  padding: 1.5rem calc(2vw * 3);
+  color: #c0d8d5;
+  letter-spacing: 1px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  line-height: calc(20px + 0.2vw);
+}
+
+.energystar {
+  position: relative;
+  float: right;
+}
+
+.headerText {
+  display: flex;
+  position: relative;
+  height: 55px;
+  margin-bottom: 1.5rem;
+  ul {
+    margin: auto 0 auto 0.2rem;
+    height: 100%;
+    line-height: 30px;
+  }
+}
+
+.computerComponents {
+  display: flex;
+  height: fit-content;
+  ul:first-of-type {
+    width: fit-content;
+    min-width: calc(10px + 10vw);
+    text-align: right;
+    ::after {
+      content: ' :';
+      margin-left: 5px;
+    }
+  }
+  ul:last-of-type {
+    ::before {
+      content: ' ';
+      margin-right: 13px;
+    }
+  }
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+}
+
+.glow {
+  color: white;
+  font-weight: bold;
+}
+
+.hidden {
+  display: none;
+}
