@@ -117,7 +117,7 @@ class startUp extends Component {
               className="post_goWebsite post_noselect"
               onClick={this.props.goWebSite}
             >
-              go website immediately
+              to the website
             </span>
           </React.Fragment>
         )}

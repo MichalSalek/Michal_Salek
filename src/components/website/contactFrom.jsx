@@ -43,7 +43,7 @@ class contactForm extends Component {
               className="home_formModal_div_topText_a"
               href="mailto:contact@michalsalek.pl"
             >
-              (click)
+              <i className="far fa-envelope-open fa-lg" />
             </a>
           </span>
         </div>

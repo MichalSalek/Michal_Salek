@@ -118,8 +118,10 @@
     width: fit-content;
     padding: 1rem 10rem 1rem 1rem;
     background: rgba(0, 0, 0, 0.3);
-    -webkit-box-shadow: inset 0px 0px 1px 2px rgba(0, 0, 0, 0.1);
-    box-shadow: inset 0px 0px 1px 2px rgba(0, 0, 0, 0.1);
+    -webkit-filter: drop-shadow(0 25px 45px rgba(#000, 0.4))
+      drop-shadow(0 0 2px rgba(#000, 0.5));
+    filter: drop-shadow(0 25px 45px rgba(#000, 0.4))
+      drop-shadow(0 0 2px rgba(#000, 0.5));
     margin: 0 0 3rem 20vw;
     border-radius: 0.3rem;
     -ms-flex-item-align: start;
@@ -229,8 +231,10 @@
     flex-wrap: wrap;
     padding: 0.3rem;
     background: rgba(0, 0, 0, 0.2);
-    -webkit-box-shadow: 0px -5px 10px 7px rgba(0, 0, 0, 0.1);
-    box-shadow: 0px -5px 10px 7px rgba(0, 0, 0, 0.1);
+    -webkit-filter: drop-shadow(0 25px 45px rgba(#000, 0.4))
+      drop-shadow(0 0 2px rgba(#000, 0.5));
+    filter: drop-shadow(0 25px 45px rgba(#000, 0.4))
+      drop-shadow(0 0 2px rgba(#000, 0.5));
     margin: 0 0 0 0;
     border-radius: 0.3rem;
     -ms-flex-item-align: center;
@@ -264,9 +268,11 @@
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     padding: 0.3rem;
-    background: rgba(0, 0, 0, 0.4);
-    -webkit-box-shadow: inset 0px 0px 1px 2px rgba(0, 0, 0, 0.1);
-    box-shadow: inset 0px 0px 1px 2px rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.3);
+    -webkit-filter: drop-shadow(0 25px 45px rgba(#000, 0.4))
+      drop-shadow(0 0 2px rgba(#000, 0.5));
+    filter: drop-shadow(0 25px 45px rgba(#000, 0.4))
+      drop-shadow(0 0 2px rgba(#000, 0.5));
     margin: 10px auto 0 2vw;
     border-radius: 0.3rem;
     &.home_hobbyContainer_second {
@@ -783,12 +789,18 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+
+  -webkit-box-align: end;
+
+  -ms-flex-align: end;
+
+  align-items: flex-end;
+
+  -webkit-box-pack: end;
+
+  -ms-flex-pack: end;
+
+  justify-content: flex-end;
   -webkit-transition: all 0.3s cubic-bezier(0.77, 0, 0.175, 1);
   transition: all 0.3s cubic-bezier(0.77, 0, 0.175, 1);
   -webkit-transform: translateX(-100vw);
@@ -816,7 +828,7 @@
     .home_formClose_Line {
       height: 2px;
       width: 20px;
-      background: rgba(0, 0, 0, 0.836);
+      background: rgba(255, 255, 255, 0.836);
     }
     .home_formClose_Line:nth-child(1) {
       -webkit-transform: translateY(2px) rotate(45deg);
@@ -839,34 +851,40 @@
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    background: rgba(238, 238, 238, 0.9);
+    background: #21395cd8;
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
-    padding: 20px;
+    padding: 0px;
+    margin: 0 50px 100px 0;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    border: 1px solid rgba(0, 0, 0, 0.7);
-    -webkit-box-shadow: 0px 10px 20px -4px rgba(0, 0, 0, 0.5);
-    box-shadow: 0px 10px 20px -4px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    -webkit-filter: drop-shadow(0 25px 45px rgba(#000, 0.4))
+      drop-shadow(0 0 2px rgba(#000, 0.5));
+    filter: drop-shadow(0 25px 45px rgba(#000, 0.4))
+      drop-shadow(0 0 2px rgba(#000, 0.5));
     overflow: hidden;
-    -webkit-transform: translateY(100vh) scale(0.1);
-    transform: translateY(100vh) scale(0.1);
+    -webkit-transform: translateY(100vh) scale(0);
+    transform: translateY(100vh) scale(0);
     &.--active {
       -webkit-transform: translateY(0) scale(1);
       transform: translateY(0) scale(1);
     }
     .home_formModal_div_topText,
     .home_formModal_div_topText_a {
-      color: rgba(0, 0, 0, 0.9);
+      color: rgba(255, 255, 255, 0.9);
       text-decoration: none;
-      padding: 10px;
-      font-size: 14px;
-      letter-spacing: 0.1rem;
+      text-align: center;
+      padding: 20px 40px;
+      font-size: 18px;
+      font-weight: 400;
+      letter-spacing: 0.3rem;
     }
   }
 }
@@ -1278,11 +1296,11 @@
       }
     }
     .home_player_playlist {
-      margin: 50px auto 5px auto; //
-      height: 50vh; //
-      width: 100%; //
+      margin: 50px auto 5px auto;
+      height: 50vh;
+      width: 100%;
       ul {
-        font-size: 10px; //
+        font-size: 10px;
         font-weight: 600;
         padding: 0;
         margin: 0;
@@ -1648,9 +1666,16 @@
     color: rgba(255, 255, 255, 0.5);
   }
   .home_formModal {
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     .home_formModal_div {
       width: 90%;
       padding: 10px;
+      margin: 0 0 50px 0;
     }
   }
 }

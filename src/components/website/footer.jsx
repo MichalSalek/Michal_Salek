@@ -32,7 +32,13 @@ class footer extends Component {
           <div className="home_rightCorner">
             <nav className="home_communityButtons">
               <img src={email} alt="Contact form" onClick={this.toggleModal} />
-              <img src={linkedin} alt="Linked In" />
+              <a
+                href="https://www.linkedin.com/in/micha%C5%82-sa%C5%82ek-2424a316a/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={linkedin} alt="Linked In" />
+              </a>
             </nav>
             <span className="home_footerText">- 2018 – Michał Sałek -</span>
           </div>
