@@ -1,13 +1,19 @@
 {
   "name": "portfolio",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "private": false,
   "dependencies": {
     "compass": "^0.1.1",
-    "node-sass": "^4.9.4",
-    "react": "^16.6.0",
-    "react-dom": "^16.6.0",
-    "react-scripts": "2.1.1"
+    "compass-mixins": "^0.12.10",
+    "node-sass": "^4.10.0",
+    "pac-resolver": "^3.0.0",
+    "react": "^16.6.3",
+    "react-countup": "^4.0.0",
+    "react-dom": "^16.6.3",
+    "react-scripts": "2.1.1",
+    "react-sound": "^1.2.0",
+    "react-typing-animation": "^1.4.0",
+    "react-universal-tilt": "^1.1.4"
   },
   "scripts": {
     "start": "react-scripts start",

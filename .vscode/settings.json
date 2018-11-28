@@ -1,0 +1,5 @@
+{
+    "files.trimTrailingWhitespace": true,
+    "prettier.eslintIntegration": true,
+    "editor.formatOnSave": true
+}

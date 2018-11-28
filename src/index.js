@@ -1,12 +1,28 @@
-import React from 'react';
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Post from './components/post/post.jsx';
+import Post from './components/post/post';
+import Boilerplate from './components/website/boilerplate';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<Post />, document.getElementById('root'));
+class Index extends Component {
+  state = {
+    post: true,
+    home: false
+  };
+  renderHome = () => {
+    this.setState({ post: false, home: true });
+  };
+  render() {
+    return (
+      <React.Fragment>
+        {this.state.post && <Post goWebSite={this.renderHome} />}
+        {this.state.home && <Boilerplate />}
+      </React.Fragment>
+    );
+  }
+}
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: http://bit.ly/CRA-PWA
-serviceWorker.unregister();
+ReactDOM.render(<Index />, document.getElementById('root'));
+
+serviceWorker.register();
