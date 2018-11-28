@@ -25,8 +25,7 @@ import pic23 from '../../components/website/css/imgs/wpLogo.png';
 import pic24 from '../../components/website/css/imgs/esLogo.png';
 
 // Self idea - preloading images
-// On "old computer loading", the pictures are loaded into memory
-// After some time (because async and for wait main styles and fonts load)
+// On "old computer loading", the main big pictures are loaded into memory
 // Control (on/off/time) from components/post/post.jsx
 
 class imgPreloader extends Component {

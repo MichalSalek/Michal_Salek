@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import linkedin from './css/imgs/linkedin.png';
 import email from './css/imgs/message.png';
+import github from './css/imgs/github.png';
 import Modal from './contactFrom';
 
 class footer extends Component {
@@ -38,6 +39,13 @@ class footer extends Component {
                 rel="noopener noreferrer"
               >
                 <img src={linkedin} alt="Linked In" />
+                <a
+                href="https://github.com/MichalSalek/Michal_Salek"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={github} alt="Linked In" />
+              </a>
               </a>
             </nav>
             <span className="home_footerText">- 2018 – Michał Sałek -</span>
