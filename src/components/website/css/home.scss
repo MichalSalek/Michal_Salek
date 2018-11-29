@@ -1601,6 +1601,8 @@
   }
   .home_footer {
     .home_leftCorner {
+      width: fit-content;
+      padding: 0;
       p {
         font-size: 10px;
         &::after {
@@ -1610,9 +1612,10 @@
     }
     .home_rightCorner {
       .home_communityButtons {
-        margin-right: 15px;
+        width: fit-content;
+        margin-right: 5px;
         img {
-          margin: 0px 10px;
+          margin: 0px 3px;
           padding: 10px;
           height: 28px;
           border-radius: 8px;

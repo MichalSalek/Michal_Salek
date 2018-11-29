@@ -39,13 +39,13 @@ class footer extends Component {
                 rel="noopener noreferrer"
               >
                 <img src={linkedin} alt="Linked In" />
-                <a
+              </a>
+              <a
                 href="https://github.com/MichalSalek/Michal_Salek"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img src={github} alt="Linked In" />
-              </a>
               </a>
             </nav>
             <span className="home_footerText">- 2018 – Michał Sałek -</span>
