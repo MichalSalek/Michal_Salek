@@ -21,6 +21,7 @@
 .home_mainPage,
 .home_mainPage__copy {
   background: url('./imgs/mountainRailway.jpg') center center;
+  border-radius: 50px;
 }
 
 .home_subpage1,
@@ -81,6 +82,7 @@
   font-size: 1.1rem;
   color: white;
   font-family: Helvetica, sans-serif;
+  border-radius: 50px;
 }
 
 .home_contentSection {
@@ -789,17 +791,11 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-
   -webkit-box-align: end;
-
   -ms-flex-align: end;
-
   align-items: flex-end;
-
   -webkit-box-pack: end;
-
   -ms-flex-pack: end;
-
   justify-content: flex-end;
   -webkit-transition: all 0.3s cubic-bezier(0.77, 0, 0.175, 1);
   transition: all 0.3s cubic-bezier(0.77, 0, 0.175, 1);
@@ -1200,14 +1196,8 @@
 
 @media screen and (max-width: 1025px) {
   .home_mainPage,
-  .home_mainPage__copy,
-  .home_subpage1,
-  .home_subpage1__copy,
-  .home_subpage2,
-  .home_subpage2__copy,
-  .home_subpage3,
-  .home_subpage3__copy {
-    border-radius: 0;
+  .home_mainPage__copy {
+    border-radius: 10px;
   }
   .home_mainPage__copy,
   .home_subpage1__copy,
