@@ -53,16 +53,14 @@ class Subpage3 extends Component {
           </h3>
           <div className="home_hobbyContainer">
             <article>
-              On my learn-path, I got to know a lot of producers method.
+              On my learn-path I have learnt many methods, such as distortion
+              and saturation, parametric equalization, various kinds of
+              compression, throughout the gating, expansion as well as sound
+              modulation.
             </article>
             <article>
-              I have learned to use sound processors such as graphic and
-              parametric equalizers, various kinds of compressors throughout
-              gates and expanders, distortion and saturation, ending with
-              modulation effects.
-            </article>
-            <article>
-              Do you know how songs are made that you listen to every day?
+              Have you ever wondered how the songs you listen to every day are
+              made?
             </article>
           </div>
           <Player />

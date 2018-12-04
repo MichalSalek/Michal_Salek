@@ -142,7 +142,7 @@ class Subpage1 extends Component {
               }`}
             />
           </div>
-          <h3 className="home_h3">I encountered</h3>
+          <h3 className="home_h3">I had experience with</h3>
           <div className="home_stackContainer">
             <span
               onMouseEnter={() => this.whatTech2('home_phpLogo')}

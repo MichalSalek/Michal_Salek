@@ -5,20 +5,20 @@ class Subpage2 extends Component {
     return (
       <React.Fragment>
         <section className="home_contentSection">
-          <h2 className="home_h2 home_h2_develop">To develop.</h2>
+          <h2 className="home_h2 home_h2_develop">My purposes.</h2>
           <div className="home_developContainer">
             <article>
-              Best practices of coding: DRY method, performance tricks, the most
-              readable format.
+              Achieve the best coding practices: DRY method, performance tricks,
+              the most readable coding format.
             </article>
             <article>
-              Creating fast cross-platform apps using modern programming.
+              I would like to learn how to create fast cross-platform
+              applications using modern programming, like PWA (Progressive Web
+              App). <br /> Furthermore: Back-end language like node.js: to
+              perform operations on vulnerable data.
             </article>
             <article>
-              Backend languages: to perform operations on vulnerable data.
-            </article>
-            <article>
-              Implementation of UX solutions confirmed by research.
+              I would to implement UX solutions confirmed by research.
             </article>
             <article>
               I am eager for internal company courses, including English
@@ -28,7 +28,7 @@ class Subpage2 extends Component {
           <h3 className="home_h3 home_h3_develop">What else?</h3>
           <div className="home_developContainer">
             <article>
-              Cleaner work gives cleaner effect, finally: greater availability.
+              Cleaner work gives cleaner effect. Finally: Greater availability.
             </article>
           </div>
         </section>
