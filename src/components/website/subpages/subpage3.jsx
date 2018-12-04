@@ -102,11 +102,10 @@ class Subpage3 extends Component {
           <div className="home_hobbyContainer home_hobbyContainer_fourth">
             <article>
               After hundreds of rejected projects, wasted hours and ideas, I
-              know how important it is to plan the work algorithm.
+              know how important it is to plan the work algorithm...
             </article>
             <article>
-              So deal with it - many things can be predicted from the very
-              beginning!
+              ...So many things can be predicted from the beginning.
             </article>
           </div>
         </section>
