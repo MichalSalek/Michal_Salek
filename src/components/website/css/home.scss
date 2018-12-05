@@ -120,10 +120,8 @@
     width: fit-content;
     padding: 1rem 10rem 1rem 1rem;
     background: rgba(0, 0, 0, 0.3);
-    -webkit-filter: drop-shadow(0 25px 45px rgba(#000, 0.4))
-      drop-shadow(0 0 2px rgba(#000, 0.5));
-    filter: drop-shadow(0 25px 45px rgba(#000, 0.4))
-      drop-shadow(0 0 2px rgba(#000, 0.5));
+    -webkit-filter: drop-shadow(0 5px 5px rgba(#000, 0.7));
+    filter: drop-shadow(0 5px 5px rgba(#000, 0.7));
     margin: 0 0 3rem 20vw;
     border-radius: 0.3rem;
     -ms-flex-item-align: start;
@@ -233,10 +231,8 @@
     flex-wrap: wrap;
     padding: 0.3rem;
     background: rgba(0, 0, 0, 0.2);
-    -webkit-filter: drop-shadow(0 25px 45px rgba(#000, 0.4))
-      drop-shadow(0 0 2px rgba(#000, 0.5));
-    filter: drop-shadow(0 25px 45px rgba(#000, 0.4))
-      drop-shadow(0 0 2px rgba(#000, 0.5));
+    -webkit-filter: drop-shadow(0 5px 5px rgba(#000, 0.4));
+    filter: drop-shadow(0 5px 5px rgba(#000, 0.4));
     margin: 0 0 0 0;
     border-radius: 0.3rem;
     -ms-flex-item-align: center;
@@ -271,10 +267,8 @@
     flex-wrap: wrap;
     padding: 0.3rem;
     background: rgba(0, 0, 0, 0.3);
-    -webkit-filter: drop-shadow(0 25px 45px rgba(#000, 0.4))
-      drop-shadow(0 0 2px rgba(#000, 0.5));
-    filter: drop-shadow(0 25px 45px rgba(#000, 0.4))
-      drop-shadow(0 0 2px rgba(#000, 0.5));
+    -webkit-filter: drop-shadow(0 10px 5px rgba(#000, 0.5));
+    filter: drop-shadow(0 10px 5px rgba(#000, 0.5));
     margin: 10px auto 0 2vw;
     border-radius: 0.3rem;
     &.home_hobbyContainer_second {
@@ -847,7 +841,7 @@
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    background: #21395cd8;
+    background: #21395cef;
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
@@ -861,10 +855,8 @@
     align-items: center;
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 20px;
-    -webkit-filter: drop-shadow(0 25px 45px rgba(#000, 0.4))
-      drop-shadow(0 0 2px rgba(#000, 0.5));
-    filter: drop-shadow(0 25px 45px rgba(#000, 0.4))
-      drop-shadow(0 0 2px rgba(#000, 0.5));
+    -webkit-filter: drop-shadow(0 5px 10px rgba(#000, 0.5));
+    filter: drop-shadow(0 5px 10px rgba(#000, 0.5));
     overflow: hidden;
     -webkit-transform: translateY(100vh) scale(0);
     transform: translateY(100vh) scale(0);
