@@ -87,7 +87,7 @@ const playlist = [
     artist: 'Michał Sałek',
     title: 'Forgotten Autumn',
     album: 'Single',
-    genre: 'Alternative metal',
+    genre: 'Alternative rock',
     year: '2017',
     duration: '05:57',
     url: ForgottenAutumn,
