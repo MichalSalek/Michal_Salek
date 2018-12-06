@@ -120,8 +120,8 @@
     width: fit-content;
     padding: 1rem 10rem 1rem 1rem;
     background: rgba(0, 0, 0, 0.3);
-    -webkit-filter: drop-shadow(0 5px 5px rgba(#000, 0.7));
-    filter: drop-shadow(0 5px 5px rgba(#000, 0.7));
+    -webkit-filter: drop-shadow(0 15px 2px rgba(#000, 0.3));
+    filter: drop-shadow(0 15px 2px rgba(#000, 0.3));
     margin: 0 0 3rem 20vw;
     border-radius: 0.3rem;
     -ms-flex-item-align: start;
@@ -231,8 +231,8 @@
     flex-wrap: wrap;
     padding: 0.3rem;
     background: rgba(0, 0, 0, 0.2);
-    -webkit-filter: drop-shadow(0 5px 5px rgba(#000, 0.4));
-    filter: drop-shadow(0 5px 5px rgba(#000, 0.4));
+    -webkit-filter: drop-shadow(0 15px 2px rgba(#000, 0.2));
+    filter: drop-shadow(0 15px 2px rgba(#000, 0.2));
     margin: 0 0 0 0;
     border-radius: 0.3rem;
     -ms-flex-item-align: center;
@@ -267,8 +267,8 @@
     flex-wrap: wrap;
     padding: 0.3rem;
     background: rgba(0, 0, 0, 0.3);
-    -webkit-filter: drop-shadow(0 10px 5px rgba(#000, 0.5));
-    filter: drop-shadow(0 10px 5px rgba(#000, 0.5));
+    -webkit-filter: drop-shadow(0 15px 2px rgba(#000, 0.3));
+    filter: drop-shadow(0 15px 2px rgba(#000, 0.3));
     margin: 10px auto 0 2vw;
     border-radius: 0.3rem;
     &.home_hobbyContainer_second {
@@ -853,8 +853,8 @@
     align-items: center;
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 20px;
-    -webkit-filter: drop-shadow(0 5px 10px rgba(#000, 0.5));
-    filter: drop-shadow(0 5px 10px rgba(#000, 0.5));
+    -webkit-filter: drop-shadow(0 15px 2px rgba(#000, 0.2));
+    filter: drop-shadow(0 15px 2px rgba(#000, 0.2));
     overflow: hidden;
     -webkit-transform: translateY(100vh) scale(0);
     transform: translateY(100vh) scale(0);
