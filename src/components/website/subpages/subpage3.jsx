@@ -81,7 +81,7 @@ class Subpage3 extends Component {
           </div>
           <div className="home_hobbyContainer home_hobbyContainer_third">
             <article>
-              I also made music for Tomasz Beksiński's film titled Cathedral
+              I also made music for Tomasz Bagiński's film titled Cathedral
               from 2002.
             </article>
             <iframe
