@@ -8,8 +8,8 @@ class Subpage2 extends Component {
           <h2 className="home_h2 home_h2_develop">My purposes.</h2>
           <div className="home_developContainer">
             <article>
-              Achieve the best coding practices: DRY method, performance tricks,
-              the most readable coding format.
+              I want to achieve the best coding practices: DRY method,
+              performance tricks, the most readable coding format.
             </article>
             <article>
               I would like to learn how to create fast cross-platform

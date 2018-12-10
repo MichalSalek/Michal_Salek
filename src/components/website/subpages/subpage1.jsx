@@ -68,7 +68,7 @@ class Subpage1 extends Component {
           <h2 className={`home_h2 home_h2_stack ${this.state.home_h2_opacity}`}>
             Work-with-code Technologies.
           </h2>
-          <h3 className="home_h3 home_h3_stack">I am using</h3>
+          <h3 className="home_h3 home_h3_stack">I use</h3>
           <div className="home_stackContainer">
             <span
               onMouseEnter={() => this.whatTech1('home_psLogo')}
