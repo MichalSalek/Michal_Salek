@@ -1,3 +1,3 @@
-Homepage with old computer loading screens - www.michalsalek.pl
+##### Homepage with old computer loading screens - https://michalsalek.pl
 
-Best on desktop Chrome.
+### Best on desktop Chrome.
