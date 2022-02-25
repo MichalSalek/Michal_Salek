@@ -93,7 +93,7 @@ $screen-background: #121010;
   cursor: pointer;
   margin: 5rem 0;
   &::after {
-    content: '\00b7 ESC \00b7';
+    content: '\00b7 ESC\00b7';
     margin-left: 1rem;
   }
   &:hover,
@@ -596,5 +596,20 @@ $screen-background: #121010;
     &::after {
       content: 'TAP';
     }
+  }
+}
+
+
+.email_addon {
+  color: #96969657;
+  font-family: $font-family;
+  font-size: 1rem;
+  position: fixed;
+  right: 3.5rem;
+  bottom: 1.5rem;
+
+  &::selection {
+    background-color: orangered;
+    color: white;
   }
 }

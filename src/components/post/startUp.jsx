@@ -194,6 +194,10 @@ class startUp extends Component {
             </footer>
           </article>
         )}
+
+
+        <span className={'email_addon'}>contact@michalsalek.pl</span>
+
       </main>
     );
   }

@@ -55,7 +55,7 @@
 .home_subpage1__copy,
 .home_subpage2__copy,
 .home_subpage3__copy {
-  opacity: 0.4;
+  opacity: 0.1;
   width: 100%;
   position: fixed;
   top: 0;
@@ -84,6 +84,7 @@
 }
 
 .home_contentSection {
+  pointer-events: none !important;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
@@ -118,7 +119,6 @@
     width: fit-content;
     padding: 1rem 10rem 1rem 1rem;
     background: rgba(0, 0, 0, 0.3);
-
     margin: 0 0 3rem 20vw;
     border-radius: 0.3rem;
     -ms-flex-item-align: start;
@@ -680,7 +680,9 @@
   }
 }
 .home_footer {
+  pointer-events: none !important;
   display: -webkit-box;
+
   display: -ms-flexbox;
   display: flex;
   -ms-flex-negative: 0;
@@ -725,6 +727,7 @@
     -ms-flex-positive: 1;
     flex-grow: 1;
     .home_communityButtons {
+      pointer-events: auto !important;
       margin-right: 4rem;
       img {
         -webkit-box-sizing: content-box;
@@ -751,8 +754,9 @@
       }
     }
     .home_footerText {
+      pointer-events: auto !important;
       position: fixed;
-      font-size: 0.9rem;
+      font-size: 1rem;
       -webkit-writing-mode: vertical-lr;
       -ms-writing-mode: tb-lr;
       writing-mode: vertical-lr;
@@ -762,6 +766,11 @@
       right: 5px;
       bottom: 15vh;
       opacity: 0.9;
+      letter-spacing: 0.2px;
+
+      &::selection {
+        background-color: orangered;
+      }
     }
   }
 }

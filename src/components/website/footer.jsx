@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import linkedin from './css/imgs/linkedin.png';
-import email from './css/imgs/message.png';
 import github from './css/imgs/github.png';
 import Modal from './contactFrom';
 
@@ -32,7 +31,7 @@ class footer extends Component {
           </div>
           <div className="home_rightCorner">
             <nav className="home_communityButtons">
-              <img src={email} alt="Contact form" onClick={this.toggleModal} />
+              {/*<img src={email} alt="Contact form" onClick={this.toggleModal} />*/}
               <a
                 href="https://www.linkedin.com/in/micha%C5%82-sa%C5%82ek-2424a316a/"
                 target="_blank"
@@ -41,14 +40,14 @@ class footer extends Component {
                 <img src={linkedin} alt="Linked In" />
               </a>
               <a
-                href="https://github.com/MichalSalek/Michal_Salek"
+                href="https://github.com/MichalSalek"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img src={github} alt="Linked In" />
               </a>
             </nav>
-            <span className="home_footerText">- 2018 – Michał Sałek -</span>
+            <span className="home_footerText">– 2018 – Michał Sałek – contact@michalsalek.pl – </span>
           </div>
         </section>
         <Modal
